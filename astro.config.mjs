@@ -51,7 +51,7 @@ function patchKatexFontDisplayPlugin() {
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteUrl,
+	site: 'https://imoreno1010.github.io',
 	integrations: [
 		mdx(),
 		sitemap({
