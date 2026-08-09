@@ -45,12 +45,12 @@ export const heroConfig: HeroConfig = {
   },
   tags: {
     text: 'Evidencias',
-    subtitle: 'Portafolio Bases de Datos 1, organizado por tema: Modelado, Normalización, SQL y Proyecto.',
+    subtitle: 'Portafolio Bases de Datos 1, organizado por tema: Modelado, Normalización, SQL y Proyecto',
     backgroundImage: defaultBackground.src,
   },
   about: {
-    text: 'About',
-    subtitle: 'Introduce yourself and your work.',
+    text: 'Bienvenido',
+    subtitle: 'Conoce quién soy y mi paso a paso este semestre',
     backgroundImage: defaultBackground.src,
   },
   postDefaultBackground: defaultBackground.src,

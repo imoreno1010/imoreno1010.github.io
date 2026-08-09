@@ -55,9 +55,9 @@ export interface ProfileConfig {
 
 export const profileConfig: ProfileConfig = {
   avatar: defaultAvatar,
-  name: 'Isabella Moreno',
+  name: 'Isabella Moreno Pérez',
   title: 'Estudiante de Ingeniería de Sistemas',
-  bio: 'Estudiante de Ingeniería de Sistemas en la Universidad El Bosque, apasionada por crear y diseñar. Persona activa, a la que le encanta viajar y explorar nuevas experiencias. Este portafolio documenta mi proceso de aprendizaje en Bases de Datos 1, una materia que espero me ayude a organizar mejor mis ideas y proyectos.',
+  bio: 'Estudiante de Ingeniería de Sistemas en la Universidad El Bosque, curso cuarto (4) semestre, Tengo 18 años de edad, apasionada por crear y diseñar, e implementar esa habilidad en el mundo de la programación, una persona caracterizada por ser activa pero principalmente responsable, a la que le encanta viajar y explorar nuevas experiencias. Este portafolio documenta mi proceso de aprendizaje en Bases de Datos 1, una materia que espero me ayude a organizar mejor mis ideas y proyectos.',
   location: 'Bogotá, Colombia',
   email: 'isabellamorenop1010@gmail.com',
   githubProfileUrl: 'https://github.com/imoreno1010',
