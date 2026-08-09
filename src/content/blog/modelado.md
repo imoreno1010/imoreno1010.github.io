@@ -1,5 +1,5 @@
 ---
-title: "Modelado de datos"
+title: "Uso de etiqueta Modelado"
 date: "2026-08-08T00:00:00-05:00"
 description: "Evidencias de mi aprendizaje sobre modelado de bases de datos en Bases de Datos 1."
 draft: false

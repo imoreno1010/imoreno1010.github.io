@@ -1,5 +1,5 @@
 ---
-title: "SQL"
+title: "Uso de Etiqueta SQL"
 date: "2026-08-08T00:00:00-05:00"
 description: "Evidencias de mi aprendizaje sobre SQL en Bases de Datos 1."
 draft: false

@@ -39,8 +39,8 @@ export const heroConfig: HeroConfig = {
   backgroundImage: defaultBackground.src,
   },
   blog: {
-    text: 'All Posts',
-    subtitle: 'Browse your writing archive.',
+    text: 'Blogs',
+    subtitle: 'Portafolio Bases de Datos 1, organizado por blogs del proceso de mi aprendizaje',
     backgroundImage: defaultBackground.src,
   },
   tags: {

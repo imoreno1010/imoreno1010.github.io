@@ -1,5 +1,5 @@
 ---
-title: "Normalización de bases de datos"
+title: "Uso de etiqueta Normalización"
 date: "2026-08-08T00:00:00-05:00"
 description: "Evidencias de mi aprendizaje sobre normalización en Bases de Datos 1."
 draft: false

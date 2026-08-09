@@ -1,5 +1,5 @@
 ---
-title: "Proyecto"
+title: "Uso de etiqueta Proyecto"
 date: "2026-08-08T00:00:00-05:00"
 description: "Evidencias de mi proyecto de Bases de Datos 1."
 draft: false
