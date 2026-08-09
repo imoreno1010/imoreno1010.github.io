@@ -34,7 +34,7 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   siteUrl: 'https://imoreno1010.github.io',
-  siteTitle: 'Isabella Moreno Portafolio',
+  siteTitle: 'Bases de Datos 1',
   siteTitleSuffix: 'Portafolio profesional',
   siteDescription: 'Portafolio profesional de Isabella Moreno, estudiante de Ingeniería de Sistemas — Bases de Datos 1.',
   locale: 'es-CO',
