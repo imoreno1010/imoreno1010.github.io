@@ -438,7 +438,7 @@ if (last > 1) paginationList.push(last);
       ? `Aquí se encuentran mis ${page.total} evidencias (página ${page.currentPage} de ${page.lastPage}).`
       : 'Aún no hay evidencias. Agrega archivos .md o .mdx en src/content/blog/.'
   }
-/>
+  >
         <div class="blog-posts-list">
           {page.data.length > 0 ? (
             page.data.map((post) => (
@@ -461,7 +461,7 @@ if (last > 1) paginationList.push(last);
           ) : (
             <p class="blog-post-excerpt" style="text-align:center;padding:1.5em 0;">
             No hay evidencias todavía. Agrega contenido en <code>src/content/blog/</code> para comenzar.
-            </p>
+          </p>
           )}
         </div>
 
