@@ -55,15 +55,14 @@ export interface ProfileConfig {
 
 export const profileConfig: ProfileConfig = {
   avatar: defaultAvatar,
-  name: 'Your Name',
-  title: 'Your Role / Focus',
-  bio: 'Write a short self-introduction here. This content is used in About and article schema.',
-  location: 'Your City',
-  email: 'you@example.com',
-  githubProfileUrl: 'https://example.com',
+  name: 'Isabella Moreno',
+  title: 'Estudiante de Ingeniería de Sistemas',
+  bio: 'Estudiante de Ingeniería de Sistemas en la Universidad El Bosque, apasionada por crear y diseñar. Persona activa, a la que le encanta viajar y explorar nuevas experiencias. Este portafolio documenta mi proceso de aprendizaje en Bases de Datos 1, una materia que espero me ayude a organizar mejor mis ideas y proyectos.',
+  location: 'Bogotá, Colombia',
+  email: 'isabellamorenop1010@gmail.com',
+  githubProfileUrl: 'https://github.com/imoreno1010',
   socials: [
-    { key: 'github', label: 'GitHub', url: 'https://example.com' },
-    { key: 'x', label: 'X', url: 'https://example.com' },
-    { key: 'website', label: 'Website', url: 'https://example.com' },
+    { key: 'github', label: 'GitHub', url: 'https://github.com/imoreno1010' },
+    { key: 'email', label: 'Correo', url: 'mailto:isabellamorenop1010@gmail.com' },
   ],
 };
