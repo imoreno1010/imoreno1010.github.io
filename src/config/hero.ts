@@ -44,8 +44,8 @@ export const heroConfig: HeroConfig = {
     backgroundImage: defaultBackground.src,
   },
   tags: {
-    text: 'Tags',
-    subtitle: 'Explore topics by category and tag.',
+    text: 'Evidencias',
+    subtitle: 'Portafolio Bases de Datos 1, organizado por tema: Modelado, Normalización, SQL y Proyecto.',
     backgroundImage: defaultBackground.src,
   },
   about: {
