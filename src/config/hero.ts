@@ -34,9 +34,9 @@ export interface HeroConfig {
 
 export const heroConfig: HeroConfig = {
   home: {
-    text: 'Build your ideas, one post at a time.',
-    subtitle: 'A clean Astro theme with centralized configuration.',
-    backgroundImage: defaultBackground.src,
+  text: 'Hola, soy Isabella Moreno Pérez',
+  subtitle: 'Estudiante de Ingeniería de Sistemas construyendo mi portafolio profesional',
+  backgroundImage: defaultBackground.src,
   },
   blog: {
     text: 'All Posts',
