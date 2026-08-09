@@ -33,12 +33,12 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  siteUrl: 'https://template.ulna520.top',
-  siteTitle: 'ulBo Astro Theme',
-  siteTitleSuffix: '个人博客',
-  siteDescription: 'A configurable Astro blog theme with centralized config and zero-content defaults.',
-  locale: 'zh-CN',
-  headerGithubRepoUrl: 'https://github.com/xxy1103/ulbo-astro-theme-template',
+  siteUrl: 'https://imoreno1010.github.io',
+  siteTitle: 'Isabella Moreno',
+  siteTitleSuffix: 'Portafolio profesional',
+  siteDescription: 'Portafolio profesional de Isabella Moreno, estudiante de Ingeniería de Sistemas — Bases de Datos 1.',
+  locale: 'es-CO',
+  headerGithubRepoUrl: 'https://github.com/imoreno1010/imoreno1010.github.io',
   faviconIco: '/favicon.ico',
 };
 
