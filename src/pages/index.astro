@@ -35,7 +35,7 @@ function formatWordCount(count: number) {
 }
 
 function formatDate(date: Date) {
-  return date.toLocaleDateString('zh-CN', {
+  return date.toLocaleDateString('es-CO', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -355,7 +355,7 @@ function formatDate(date: Date) {
         </div>
 
         <div class="recent-posts-section">
-          <SectionHeader number="02" title="Últimas entradas" intro={hasPosts ? 'Lo más reciente de mi bitácora de aprendizaje' : 'Todavía no hay'} />
+          <SectionHeader number="02" title="Últimos Blogs" intro={hasPosts ? 'Lo más reciente de mi bitácora de aprendizaje' : 'Todavía no hay'} />
 
           {recentPosts.length > 0 ? (
             <>
