@@ -383,7 +383,7 @@ export class TagSearchController {
 			const isActive = isAll ? !this.activeTag : pill.dataset.tag === this.activeTag;
 			pill.classList.toggle('active-tag', isActive);
 		});
-		if (this.activeTagTitle) this.activeTagTitle.textContent = this.activeTag ? `# ${this.activeTag}` : '所有文章';
+		if (this.activeTagTitle) this.activeTagTitle.textContent = this.activeTag ? `# ${this.activeTag}` : 'Todas las entradas';
 	}
 }
 
