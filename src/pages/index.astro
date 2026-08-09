@@ -29,7 +29,7 @@ const webSiteSchema = {
 
 function formatWordCount(count: number) {
   if (count > 10000) {
-    return `${(count / 10000).toFixed(2)} 万`;
+    return `${(count / 10000).toFixed(1)} mil`;
   }
   return count.toString();
 }
@@ -341,16 +341,16 @@ function formatDate(date: Date) {
 
         <div class="stats-grid">
           <div class="stat-item">
-            <span class="stat-value">{postCount} 篇</span>
-            <span class="stat-label">文章</span>
+            <span class="stat-value">{postCount}</span>
+            <span class="stat-label">Entradas</span>
           </div>
           <div class="stat-item">
             <span class="stat-value">{formatWordCount(wordCount)}</span>
-            <span class="stat-label">字数</span>
+            <span class="stat-label">Palabras</span>
           </div>
           <div class="stat-item">
-            <span class="stat-value">{tagCount} 个</span>
-            <span class="stat-label">标签</span>
+            <span class="stat-value">{tagCount}</span>
+            <span class="stat-label">Etiquetas</span>
           </div>
         </div>
 
