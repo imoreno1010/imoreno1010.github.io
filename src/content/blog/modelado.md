@@ -1,6 +1,6 @@
 ---
 title: "Modelo Entidad-Relación (MER)"
-date: "2026-08-12T00:00:00-05:00"
+date: "2026-08-14T00:00:00-05:00"
 description: "Todo lo relacionado con Modelo Entidad-Relación: sus componentes o elementos, tipos de atributos, cardinalidades, y un ejercicio MER aplicado a una plataforma de streaming."
 draft: false
 categories:
