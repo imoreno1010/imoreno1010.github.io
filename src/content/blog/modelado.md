@@ -71,6 +71,6 @@ Y estas relaciones, con sus cardinalidades:
 - `CONTENIDO` **tener** `PRODUCTOR` (M:1)
 - `CONTENIDO` **pertenecer** `CATEGORIA` (M:M)
 
-![Modelo Entidad - Relación de la plataforma de streaming, hecho a mano en mi cuaderno.](image/mer-streaming.jpeg)
+![Modelo Entidad - Relación de la plataforma de streaming, hecho a mano en mi cuaderno.](image/theme-showcase/mer-streaming.jpeg)
 
 Finalmente, este ejercicio me ayudó a entender y mejorar en la parte de cómo aplicar los 5 elementos del MER en un caso real y a practicar la diferencia entre todas las cardinalidades y relaciones.
