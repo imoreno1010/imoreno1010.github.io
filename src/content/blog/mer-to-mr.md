@@ -39,7 +39,7 @@ Después de construir un Modelo Entidad-Relación (MER), el siguiente paso es tr
 ## Aplicando la transformación a un caso real
 Para practicar, tomé un diagrama MER de un zoológico/safari con las entidades: `HABITAT`, `CONTINENTE`, `ESPECIE`, `ZONA`, `ITINERARIO`, `CUIDADOR` y `GUIA`.
 
-![Diagrama entidad-relación del zoológico usado para practicar la transformación a MR.](image/mer-zoologico.png)
+![Diagrama entidad-relación usado para practicar la transformación a MR.](image/theme-showcase/mer-zoologico.png)
 
 Así fue como apliqué las reglas:
 
