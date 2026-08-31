@@ -1,11 +1,11 @@
 ---
-title: "Uso de etiqueta Proyecto"
-date: "2026-08-08T00:00:00-05:00"
-description: "Evidencias de mi proyecto de Bases de Datos 1."
+title: "Quiz 1 MER"
+date: "2026-08-29T00:00:00-05:00"
+description: "Evaluación de mi conocimiento sobre el modelo entidad-relación mediante un quiz."
 draft: false
 categories:
   - "Evidencias"
 tags:
   - "Proyecto"
 ---
-Esta sección está en construcción. Aquí iré subiendo las evidencias de mi **proyecto** a medida que avance en el curso de Bases de Datos 1.
+Evaluaron mi conocimiento con un quiz, el cual consistía en primero
