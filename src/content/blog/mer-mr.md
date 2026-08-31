@@ -10,7 +10,7 @@ tags:
 ---
 Se propone realizar autónomamente y completo una transformación de MER a MR. Inicialmente elegí el diagrama modelo entidad-relación que consideré que contenía lo necesario para cierta transformación, lo repliqué en LucidChart y obtuve esto:
 
-![Diagrama entidad-relación elegido para el ejercicio individual, replicado en LucidChart.](image/theme-showcase/mr-individual.png)
+![Diagrama entidad-relación elegido para el ejercicio individual, replicado en LucidChart.](image/theme-showcase/mer-individual.png)
 
 A partir de este, empecé a realizar la transformación.
 
