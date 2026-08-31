@@ -16,3 +16,6 @@ A partir de este, empecé a realizar la transformación.
 
 ## Pasos de la transformación
 
+## Modelo Relacional 
+![Modelo Relación apartir de la transformación del Modelo Entidad Relación.](image/theme-showcase/mr-individual.png)
+
