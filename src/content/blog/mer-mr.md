@@ -8,7 +8,7 @@ categories:
 tags:
   - "Proyecto"
 ---
-Se propone realizar autónomamente y completo una transformación de MER a MR. Inicialmente elegí el diagrama modelo entidad-relación que consideré que contenía lo necesario para cierta transformación, lo repliqué en LucidChart y obtuve esto:
+Se propone realizar autónomamente y completo una transformación de MER a MR. Inicialmente elegí el diagrama modelo entidad-relación que consideré que contenía lo necesario para cierta transformación, lo repliqué en Draw.io y me quedó así:
 
 ![Diagrama entidad-relación elegido para el ejercicio individual, replicado en LucidChart.](image/theme-showcase/mer-individual.png)
 
