@@ -44,6 +44,6 @@ Ninguna entidad de mi diagrama se relaciona consigo misma, no hay relaciones ref
 ### Regla 11 — Generalización/Especialización
 Aplica a `es_un` (`EMPLEADO` especializado en `GERENTE`/`VENDEDOR`, parcial y disjunta). Como es parcial (no todo empleado es gerente o vendedor), se deja la superclase + la entidad por cada subclase", donde la PK de cada subclase es la misma que la de la superclase, funcionando también como FK hacia ella.
 
-## Modelo Relacional 
-![Modelo Relación apartir de la transformación del Modelo Entidad Relación.](image/theme-showcase/tienda.png)
+## Transformación MER
+![Transformación del Modelo Entidad Relación.](image/theme-showcase/tienda.png)
 

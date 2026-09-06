@@ -92,8 +92,8 @@ No aplican porque en el diagrama todas las relaciones son binarias, sin roles re
 **Resultado final: 12 tablas**
 
 7 de entidades + 5 de relaciones N:M.
-## Modelo Relacional
-![Modelo Relacional.](image/theme-showcase/mer-zoo.png)
+## Transformación MER
+![Transformación MER.](image/theme-showcase/mer-zoo.png)
 
 
 
