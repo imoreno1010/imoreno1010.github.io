@@ -18,21 +18,21 @@ Evaluaron inicialmente mi conocimiento, donde evaluaron MER (modelo entidad-rela
 
 Esta fue la manera como solucioné el punto, donde realicé correctamente el diagrama MER:
 
-![Solución del primer punto del quiz.](image/theme-showcase/solucion1.png)
+![Solución del primer punto del quiz.](image/theme-showcase/solucion1.jpeg)
 
 ## Segundo punto
 
-![Enunciado del segundo punto del quiz.](image/theme-showcase/solucion1.png)
+![Enunciado del segundo punto del quiz.](image/theme-showcase/solucion1.jpeg)
 
 
 Este punto era más extenso. Esta es la solución:
 
-![Solución del segundo punto del quiz.](image/theme-showcase/solucion1.png)
+![Solución del segundo punto del quiz.](image/theme-showcase/solucion1.jpeg)
 
 ## Tercer punto
 
-![Enunciado del tercer punto del quiz.](image/theme-showcase/solucion1.png)
+![Enunciado del tercer punto del quiz.](image/theme-showcase/solucion1.jpeg)
 
 Este punto es más conceptual. Esta es mi solución:
 
-![Solución del tercer punto del quiz.](image/theme-showcase/solucion1.png)
+![Solución del tercer punto del quiz.](image/theme-showcase/solucion1.jpeg)

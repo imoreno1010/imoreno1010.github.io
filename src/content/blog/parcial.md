@@ -14,21 +14,21 @@ Realicé un pre-parcial asignado por el docente para practicar la realización d
 
 ## Primer punto
 
-![Enunciado del primer punto del pre-parcial.](image/theme-showcase/parcialpunto11.png)
-![Enunciado del primer punto del pre-parcial.](image/theme-showcase/parcialpunto12.png)
+![Enunciado del primer punto del pre-parcial.](image/theme-showcase/parcialpunto11.jpeg)
+![Enunciado del primer punto del pre-parcial.](image/theme-showcase/parcialpunto12.jpeg)
 
 Este fue el diagrama MER final que realice, siguiendo las indicaciones:
 
-![Diagrama MER final del primer punto.](image/theme-showcase/solucion1.png)
+![Diagrama MER final del primer punto.](image/theme-showcase/solucion1.jpeg)
 
 
 ## Segundo punto
 
-![Enunciado del segundo punto del pre-parcial.](image/theme-showcase/parcialpunto21.png)
-![Enunciado del segundo punto del pre-parcial.](image/theme-showcase/parcialpunto22.png)
+![Enunciado del segundo punto del pre-parcial.](image/theme-showcase/parcialpunto21.jpeg)
+![Enunciado del segundo punto del pre-parcial.](image/theme-showcase/parcialpunto22.jpeg)
 
 
 Para este caso, consiste en la transformación. Así mismo, siguiendo las indicaciones y punto por punto, me  quedó así:
 
-![Transformación a modelo relacional del segundo punto.](image/theme-showcase/solucion2.png)
+![Transformación a modelo relacional del segundo punto.](image/theme-showcase/solucion2.jpeg)
 
