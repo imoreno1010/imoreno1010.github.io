@@ -6,6 +6,6 @@ draft: false
 categories:
   - "Evidencias"
 tags:
-  - "Proyecto"
+  - "Modelado"
 ---
 Evaluaron mi conocimiento con un quiz, el cual consistía en primero

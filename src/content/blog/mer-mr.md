@@ -6,7 +6,7 @@ draft: false
 categories:
   - "Evidencias"
 tags:
-  - "Proyecto"
+  - "Modelado"
 ---
 Se propone realizar autónomamente y completo una transformación para un Modelo Entidad Relación. Inicialmente elegí el diagrama modelo entidad-relación que consideré que contenía lo necesario para cierta transformación, lo repliqué en Draw.io y me quedó así:
 
