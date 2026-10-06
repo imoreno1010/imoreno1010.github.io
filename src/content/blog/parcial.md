@@ -8,7 +8,7 @@ categories:
 tags:
   - "Modelado"
 ---
-Realicé un pre-parcial asignado por el docente para practicar el tema de MER y su transformación, dividido en dos puntos de 20 puntos cada uno.
+Realicé un pre-parcial asignado por el docente para practicar el tema de MER y su transformación.
 
 <!-- more -->
 
