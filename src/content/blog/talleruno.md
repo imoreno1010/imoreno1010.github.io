@@ -1,5 +1,5 @@
 ---
-title: "Pre-parcial MER y Transformación"
+title: "Taller 1"
 date: "2026-09-01T00:00:00-05:00"
 description: "Taller 1"
 draft: false

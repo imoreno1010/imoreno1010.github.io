@@ -30,5 +30,5 @@ Este fue el diagrama MER final que realice, siguiendo las indicaciones:
 
 Para este caso, consiste en la transformación. Así mismo, siguiendo las indicaciones y punto por punto, me  quedó así:
 
-![Transformación a modelo relacional del segundo punto.](image/theme-showcase/solucion2.jpg)
+![Transformación MER del segundo punto.](image/theme-showcase/solucion2.jpg)
 
