@@ -1,5 +1,5 @@
 ---
-title: "Taller de Normalización — Punto 5"
+title: "Taller de Normalización — Punto 4"
 date: "2026-09-23T00:00:00-05:00"
 description: "Ejercicio práctico de normalización: llevando una tabla de consultas médicas desde su forma inicial hasta 3FN, con una nota sobre BCNF."
 draft: false
@@ -8,7 +8,7 @@ categories:
 tags:
   - "Normalización"
 ---
-Hice el punto 5 de un taller de normalización de bases de datos, donde se debía partir de una tabla con información de consultas médicas y llevarla paso a paso hasta una forma normal más alta.
+Hice el punto 4 de un taller de normalización de bases de datos, donde se debía partir de una tabla con información de consultas médicas y llevarla paso a paso hasta una forma normal más alta.
 
 <!-- more -->
 
