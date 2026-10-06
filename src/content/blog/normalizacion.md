@@ -31,3 +31,13 @@ Es una versión más estricta de la 3FN. La diferencia aparece en que la 3FN per
 ## Cuarta Forma Normal (4FN)
 
 Además de cumplir 1FN, 2FN y 3FN, exige que los campos multivaluados se identifiquen con su propia clave única, es decir, que no se mezclen dentro de una misma tabla dos relaciones independientes entre sí. Un ejemplo de esto es cuando una tabla intenta guardar a la vez qué materias existen y qué materias toma cada alumno: aunque ya esté en 3FN, sigue mezclando dos cosas distintas. La solución es separar el catálogo general de materias de la relación específica entre cada alumno y las materias que cursa, cada una en su propia tabla.
+
+## Tener en cuenta: anomalías
+
+Antes de entrar en cada forma normal, vale la pena entender qué problemas resuelve la normalización. Cuando una tabla mezcla información que debería estar separada, pueden aparecer tres tipos de anomalías:
+
+- **Anomalía de inserción:** ocurre cuando no se puede agregar un dato sin que dependa de la existencia de otro. Por ejemplo, si los datos de un cliente solo existen dentro de la tabla de pedidos, no se puede registrar un cliente nuevo hasta que haga su primer pedido.
+- **Anomalía de eliminación:** ocurre cuando, al borrar una fila, se pierde información que no debería depender de esa fila. Por ejemplo, si el único pedido de un cliente se cancela y se elimina esa fila, también se pierden los datos del cliente, aunque siga existiendo como persona.
+- **Anomalía de actualización:** ocurre cuando un mismo dato está repetido en varias filas, y al actualizarlo hay que modificarlo en todas esas filas. Si se olvida alguna, la información queda inconsistente (por ejemplo, el mismo producto con dos precios distintos en filas diferentes).
+
+Estas anomalías aparecen principalmente por dos razones: un atributo que no es clave depende de otro atributo que tampoco es clave (dependencia transitiva, lo que resuelve 3FN), o un atributo depende solo de una parte de una clave compuesta, no de la clave completa (dependencia parcial, lo que resuelve 2FN). Entender estas dependencias entre atributos y claves es la base para saber qué forma normal aplicar en cada caso.
