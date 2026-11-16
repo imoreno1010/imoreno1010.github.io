@@ -8,6 +8,7 @@ categories:
 tags:
   - "SQL"
 ---
+Este post resume qué es el álgebra relacional.
 
 <!-- more -->
 
