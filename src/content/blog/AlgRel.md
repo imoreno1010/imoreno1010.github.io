@@ -1,6 +1,6 @@
 ---
 title: "Algebra Relacional"
-date: "2026-10-21T00:00:00-05:00"
+date: "2026-10-16T00:00:00-05:00"
 description: "Este post resume qué es el álgebra relacional, el lenguaje formal que está detrás de las consultas a una base de datos, y explica cada operador con un ejemplo."
 draft: false
 categories:
