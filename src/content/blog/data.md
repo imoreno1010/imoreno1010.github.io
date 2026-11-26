@@ -26,8 +26,8 @@ Sigue siendo un modelo entidad-relación, pero escrito en la notación de Barker
 
 El modelo lógico tiene **21 entidades** y **25 relaciones**, más **4 jerarquías** (la especialización de `PERSONA`).
 
-![Modelo lógico (parte 1):] (image/theme-showcase/logicaluno.png)
-![Modelo lógico (parte 2):] (image/theme-showcase/logicaldos.png)
+![Modelo logico (parte 1):](image/theme-showcase/logicaluno.png)
+![Modelo logico (parte 2):](image/theme-showcase/logicaldos.png)
 
 ### Cómo leer la notación
 
