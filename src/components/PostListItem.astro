@@ -38,9 +38,17 @@ const {
 } = Astro.props;
 
 const TitleTag = titleTag;
+
+const colorPorEtiqueta: Record<string, string> = {
+	Proyecto: 'rosado',
+	Modelado: 'azul',
+	'Normalización': 'amarillo',
+	SQL: 'blanco',
+};
+const colorTarjeta = colorPorEtiqueta[post.data.tags?.[0] ?? ''] ?? 'blanco';
 ---
 
-<article class={articleClass}>
+<article class={articleClass} data-color={colorTarjeta}>
 	<TitleTag class={titleClass}>
 		<a href={`/blog/${post.id}/`}>{post.data.title}</a>
 		<DraftBadge draft={post.data.draft} />
@@ -60,3 +68,75 @@ const TitleTag = titleTag;
 	/>
 </article>
 
+<style>
+	article[data-color] {
+		--card-bg: #ffffff;
+		--card-border: #e5e7eb;
+		--card-accent: #d1d5db;
+		background: var(--card-bg);
+		border: 1px solid var(--card-border);
+		border-left: 6px solid var(--card-accent);
+		border-radius: 14px;
+		padding: 1.1rem 1.4rem;
+		margin-bottom: 1rem;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	article[data-color='rosado'] {
+		--card-bg: #fff1f5;
+		--card-border: #fbdce5;
+		--card-accent: #f7b7ca;
+	}
+	article[data-color='azul'] {
+		--card-bg: #eef6ff;
+		--card-border: #d3e8fb;
+		--card-accent: #a9d3f7;
+	}
+	article[data-color='amarillo'] {
+		--card-bg: #fffae5;
+		--card-border: #fbefbd;
+		--card-accent: #f8dc84;
+	}
+	article[data-color='blanco'] {
+		--card-bg: #ffffff;
+		--card-border: #e5e7eb;
+		--card-accent: #d1d5db;
+	}
+
+	article[data-color]:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+	}
+
+	article[data-color] :global(.tag-link) {
+		background: rgba(255, 255, 255, 0.7);
+	}
+
+	/* Modo oscuro: versiones apagadas de los mismos colores */
+	:global(.dark) article[data-color],
+	:global([data-theme='dark']) article[data-color] {
+		--card-bg: rgba(255, 255, 255, 0.04);
+		--card-border: rgba(255, 255, 255, 0.12);
+	}
+	:global(.dark) article[data-color='rosado'],
+	:global([data-theme='dark']) article[data-color='rosado'] {
+		--card-bg: rgba(247, 183, 202, 0.1);
+		--card-accent: #f7b7ca;
+	}
+	:global(.dark) article[data-color='azul'],
+	:global([data-theme='dark']) article[data-color='azul'] {
+		--card-bg: rgba(169, 211, 247, 0.1);
+		--card-accent: #a9d3f7;
+	}
+	:global(.dark) article[data-color='amarillo'],
+	:global([data-theme='dark']) article[data-color='amarillo'] {
+		--card-bg: rgba(248, 220, 132, 0.1);
+		--card-accent: #f8dc84;
+	}
+	:global(.dark) article[data-color] :global(.tag-link),
+	:global([data-theme='dark']) article[data-color] :global(.tag-link) {
+		background: rgba(255, 255, 255, 0.08);
+	}
+</style>
