@@ -29,8 +29,6 @@ El modelo lógico tiene **21 entidades** y **25 relaciones**, más **4 jerarquí
 ![Modelo lógico (parte 1):] (image/theme-showcase/logicaluno.png)
 ![Modelo lógico (parte 2):] (image/theme-showcase/logicaldos.png)
 
-![Modelo lógico (parte 3): POSESION, ARRIENDO, RESIDENCIA, CASA, FACTURA y PAGO.](image/datamodel-logico-3.png)
-
 ### Cómo leer la notación
 
 Cada atributo lleva un símbolo al lado:
