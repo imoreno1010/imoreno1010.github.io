@@ -1,4 +1,4 @@
-import defaultBackground from '../assets/blog-placeholder-1.webp';
+import defaultBackground from '../assets/hero-salon.png';
 
 /**
  * Hero copy and background settings for one page.
