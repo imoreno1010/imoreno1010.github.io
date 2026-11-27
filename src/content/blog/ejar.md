@@ -1,6 +1,6 @@
 ---
 title: "Ejercicios de Álgebra Relacional"
-date: "2026-10-08T13:00:00-05:00"
+date: "2026-10-17T13:00:00-05:00"
 description: "Ejercicios de álgebra relacional resueltos paso a paso sobre una tienda en línea: operaciones básicas, producto cartesiano, unión, diferencia, división y máximo."
 draft: false
 categories:
